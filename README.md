@@ -11,10 +11,11 @@ It has originally two endpoints for the users model.
 
     bundle
     bundle exec sequel -m db/migrations sqlite://db/development.sqlite3
+    bundle exec rake seed
     bundle exec rackup 
 
 Access it through `http://localhost:9292`
 
 ## Testing
 
-    bundle exec rspec
+    bundle exec rake test
