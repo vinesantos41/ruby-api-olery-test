@@ -9,7 +9,6 @@ require 'sequel'
 #Controllers
 require_relative 'olery/controllers/base'
 require_relative 'olery/controllers/v1/users'
-require_relative 'olery/controllers/v1/user_hotels'
 
 #Models
 require_relative 'olery/models/user'
