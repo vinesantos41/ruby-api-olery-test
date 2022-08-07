@@ -9,6 +9,7 @@ gem 'sinatra'
 gem 'sinatra-contrib'
 
 gem 'pry'
+gem 'pry-nav'
 
 group :test do
   gem 'rspec'
